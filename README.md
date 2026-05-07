@@ -1,4 +1,4 @@
-# FuTCR: Future-Targeted Contrastive Representation for Continual Panoptic Segmentation
+# FuTCR: Future-Targeted Contrast and Repulsion for Continual Panoptic Segmentation
 
 FuTCR is a query-based continual panoptic segmentation framework that treats unlabeled future-class evidence as a first-class training signal. It builds on Mask2Former-style decoders and SimCIS-style continual setups, adding future-aware region contrast and known-class repulsion.
 
@@ -151,4 +151,4 @@ FuTCR is implemented on top of:
 - [Mask2Former](https://github.com/facebookresearch/Mask2Former) for panoptic segmentation.
 - SimCIS-style continual segmentation infrastructure for query-based training and evaluation.
 
-We gratefully acknowledge these projects and related continual segmentation work (e.g., BalConpas, ECLIPSE) for their foundational contributions.
+We gratefully acknowledge these projects and related continual segmentation work (e.g., SimCIS, BalConpas) for their foundational contributions.
