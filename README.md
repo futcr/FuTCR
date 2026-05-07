@@ -133,6 +133,18 @@ Evaluation scripts:
 
 ---
 
+## 🧩 Future-Aware Module and Configs
+
+FuTCR’s core components live in:
+
+```bash
+methods/FuTCR/mask2former/modeling/future_aware/
+```
+
+Future-like region discovery, region contrast, and repulsion are enabled and tuned via the YAML configs in `methods/FuTCR/continual/config.py`, using the hyperparameters described in the paper (e.g., loss weights, thresholds, sampling settings). No direct edits to `future_aware/*.py` are required for standard runs.
+
+---
+
 ## 📊 Reproducing Main Experiments
 
 From `methods/FuTCR`:
